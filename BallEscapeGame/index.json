@@ -1,0 +1,34 @@
+{
+	"poki_template_version": 1,
+	"extra_html": {
+	  "head": [
+		"<!-- will be copied to the resulting head //-->"
+	  ],
+	  "body": [
+		"<!-- will be copied to the resulting body //-->",
+		"<!-- will also be copied to the resulting body //-->"
+	  ]
+	},
+	"background_color": "#231F20",
+	"background_filename": "",
+	"code_filename": "a396a866acb6c40498adb3ccc7b0f888.wasm",
+	"company_name": "HypeGGames",
+	"data_filename": "260fc64668b237e9ee4f32c3014fa469.data",
+	"decompression_fallback": "",
+	"development_player": "false",
+	"framework_filename": "cdec6c1bd2e75c30d6328bcafecfadf4.framework.js",
+	"height": "1080",
+	"loader_filename": "bb0d9ecdb05db3e84da20bd14a4f84dc.loader.js",
+	"memory_filename": "",
+	"product_name": "Last Hole",
+	"product_version": "1.0",
+	"splash_screen_style": "Dark",
+	"symbols_filename": "",
+	"unity_version": "2022.3.49f1",
+	"use_data_caching": "true",
+	"use_threads": "false",
+	"use_wasm": "true",
+	"use_webgl_1_0": "false",
+	"use_webgl_2_0": "true",
+	"width": "1920"
+  }
