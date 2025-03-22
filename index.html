@@ -3,63 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Osman GÜRSES</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>HypeG Games - Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">Hakkımda</a>
-                    <ul class="dropdown">
-                        <li><a href="https://www.linkedin.com/in/osmangurses/" target="_blank">LinkedIn</a></li>
-                        <li><a href="cv.html">CV</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#projects">Projeler</a>
-                    <ul class="dropdown">
-                        <li><a href="https://github.com/osmangurses" target="_blank">GitHub</a></li>
-                        <li><a href="webgames.html">Web Oyunları</a></li>
-                        <li><a href="https://play.google.com/store/apps/dev?id=8099997230494145690" target="_blank">Play Store</a></li>
-                        <li><a href="projectsummaries.html">Proje Özetleri</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#contact">İletişim</a>
-                    <ul class="dropdown">
-                        <li><a href="mailto:osman@hypeggames.com">E-posta</a></li>
-                        <li><a href="https://www.linkedin.com/in/osmangurses/" target="_blank">LinkedIn</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="HypeGG Games Logo" class="header-logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                    <li><a href="projeler.html">Projeler</a></li>
+                    <li><a href="web-oyunlari.html">Web Oyunları</a></li>
+                    <li><a href="mobil-oyunlar.html">Mobil Oyunlar</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h1>Merhaba!</h1>
-        <p>Ben Osman Gürses. İstanbul Üniversitesi Cerrahpaşa'dan Bilgisayar Mühendisliği bölümünden mezun oldum.</p>
-        <p>Yazılım geliştirme alanında çeşitli konularla ilgilendim:</p>
-        <ul>
-            <li>Python ile görüntü işleme</li>
-            <li>Java ile web geliştirme</li>
-            <li>Java ve Flutter ile mobil uygulama geliştirme</li>
-            <li>HTML, CSS ve JavaScript ile web tasarımı</li>
-            <li>Three.js ile 3D web geliştirme</li>
-        </ul>
-        <p>Uzun süredir Unity ve C# ile oyunlar, oynanabilir reklamlar ve uygulamalar geliştiriyorum. Bu konuda profesyonel deneyim sahibiyim.</p>
-        <p>Denizli'de doğdum ve şu anda İstanbul'da yaşıyorum. Bilgi paylaşmayı ve üretmeyi çok seviyorum. Şu anda bir eğitim şirketinde Unity ile oyun geliştirme eğitimi veriyorum.</p>
-        <p>Yabancı dil olarak, İngilizceyi doküman okuyup anlayacak ve orta düzeyde iletişim kurabilecek seviyede biliyorum.</p>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                                    <h2>Yaratıcı Oyun Deneyimleri</h2>
+                <p>Merhaba! Ben Osman Gürses, profesyonel bir oyun geliştiricisiyim. Yenilikçi ve eğlenceli oyun deneyimleri yaratmak için tutku ve yaratıcılıkla çalışıyorum.</p>
+                <a href="projeler.html" class="btn">Projelerimi Görüntüle</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/titlelogo.png" alt="HypeGG Games Logo" />
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>İletişim</h2>
-        <p>Bana e-posta yoluyla ulaşabilirsiniz: <a href="mailto:osman@hypeggames.com">osman@hypeggames.com</a></p>
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/profile.png" alt="Osman Gürses" />
+                </div>
+                <div class="about-text">
+                    <p>Unity ve C# ile oyunlar, oynanabilir reklamlar ve uygulamalar geliştiriyorum. İstanbul Üniversitesi Cerrahpaşa'dan Bilgisayar Mühendisliği bölümünden mezun oldum.</p>
+                    <p>Yazılım geliştirme alanında görüntü işleme, web geliştirme, mobil uygulama geliştirme ve HTML, CSS, JavaScript ile web tasarımı gibi konularda deneyime sahibim.</p>
+                    <p>Oyunlarımda kullanıcı deneyimini ön planda tutarken, görsel açıdan etkileyici ve teknik olarak sağlam uygulamalar geliştirmeyi hedefliyorum. Şu anda bir eğitim şirketinde Unity ile oyun geliştirme eğitimi veriyorum.</p>
+                    <div class="skills">
+                        <h3>Yeteneklerim</h3>
+                        <ul>
+                            <li>Unity 3D/2D</li>
+                            <li>C# ve C++</li>
+                            <li>JavaScript</li>
+                            <li>HTML5 Canvas</li>
+                            <li>Three.js</li>
+                            <li>WebGL</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Flutter</li>
+                            <li>Mobile Game Development</li>
+                            <li>Game Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-projects">
+        <div class="container">
+            <h2>Öne Çıkan Projeler</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Bankacılık Sistemi</h3>
+                        <p>Java ve JDBC kullanılarak geliştirilmiş internet bankacılığı sistemi. Kullanıcıların gündelik bankacılık işlemlerini kolayca gerçekleştirmesine olanak tanır.</p>
+                        <a href="projeler.html#banking" class="btn-small">Detayları Gör</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Handay</h3>
+                        <p>Python ile görüntü işleme ve Unity üzerinde oyunlaştırma tekniklerini birleştiren proje. Non-immersive bir VR deneyimi sunar.</p>
+                        <a href="projeler.html#handay" class="btn-small">Detayları Gör</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>I Found It</h3>
+                        <p>Codenames oyunundan esinlenerek geliştirilmiş online çok oyunculu parti oyunu. Eğlenceli ve rekabetçi bir oyun deneyimi sunar.</p>
+                        <a href="web-oyunlari.html#ifoundit" class="btn-small">Oyna</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Osman Gürses. Tüm hakları saklıdır.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>HypeG Games</h3>
+                    <p>Yaratıcı oyun deneyimleri</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/osmangurses" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/osmangurses" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 HypeGG Games. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

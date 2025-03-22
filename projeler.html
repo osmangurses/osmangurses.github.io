@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projelerim - HypeG Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HypeGG Games</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="projeler.html" class="active">Projeler</a></li>
+                    <li><a href="web-oyunlari.html">Web Oyunları</a></li>
+                    <li><a href="mobil-oyunlar.html">Mobil Oyunlar</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Projelerim</h1>
+            <p>Geliştirdiğim oyun ve uygulama projeleri</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="mobile">Python/VR</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Proje 1 -->
+                <div class="project-item" data-category="mobile" id="handay">
+                    <div class="project-details">
+                        <h2>Handay</h2>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                            <span><i class="fas fa-tag"></i> AR, Görüntü İşleme</span>
+                            <span><i class="fas fa-code"></i> Python, Unity, C#</span>
+                        </div>
+                        <div class="project-description">
+                            <p>Python ile görüntü işleme ve Unity üzerinde oyunlaştırma tekniklerini birleştiren bu proje, kullanıcıya non-immersive bir VR deneyimi sunar.</p>
+                            <p>Görüntü işleme algoritmaları ve veri transfer protokolleri açısından yenilikçi bir çözüm olan Handay, eller ile bilgisayar ekranında nesneleri kontrol edebilme imkanı sağlar.</p>
+                            
+                            <h3>Özellikler:</h3>
+                            <ul>
+                                <li>Gerçek zamanlı el izleme</li>
+                                <li>Hareket tabanlı etkileşim</li>
+                                <li>Düşük gecikme süresi</li>
+                                <li>Çeşitli mini oyunlar</li>
+                                <li>Ek donanım gerektirmez</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/osmangurses/HandTrackingGames" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje 2 -->
+                <div class="project-item" data-category="web" id="ifoundit-project">
+                    <div class="project-details">
+                        <h2>I Found It</h2>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2022</span>
+                            <span><i class="fas fa-tag"></i> Web, Parti Oyunu</span>
+                            <span><i class="fas fa-code"></i> Unity, WebGL, C#</span>
+                        </div>
+                        <div class="project-description">
+                            <p>Codenames oyunundan esinlenerek geliştirilmiş bu online çok oyunculu parti oyunu, eğlenceli ve rekabetçi bir oyun deneyimi sunar.</p>
+                            <p>Çok oyunculu sistemlerin yönetimi ve optimizasyonu konusunda önemli bir uygulamadır. Oyuncular ipuçlarını takip ederek doğru kelimeleri bulmaya çalışırlar.</p>
+                            
+                            <h3>Özellikler:</h3>
+                            <ul>
+                                <li>Gerçek zamanlı çok oyunculu oynanış</li>
+                                <li>Özel oda oluşturma</li>
+                                <li>Kelime havuzu sistemi</li>
+                                <li>Puanlama ve skor tablosu</li>
+                                <li>Takım tabanlı oyun modu</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="web-oyunlari.html#ifoundit" class="btn-small"><i class="fas fa-play"></i> Oyna</a>
+                            <a href="https://github.com/osmangurses/I-Found-It" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje 3 -->
+                <div class="project-item" data-category="web" id="banking">
+                    <div class="project-details">
+                        <h2>Bankacılık Sistemi</h2>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2022</span>
+                            <span><i class="fas fa-tag"></i> Web, Finans</span>
+                            <span><i class="fas fa-code"></i> Java, JDBC, SQL</span>
+                        </div>
+                        <div class="project-description">
+                            <p>Java ve JDBC kullanılarak geliştirilmiş bu internet bankacılığı sistemi, kullanıcıların gündelik bankacılık işlemlerini kolayca gerçekleştirmesine olanak tanır.</p>
+                            <p>Veritabanı yönetimi ve veri işlemleri konusunda güçlü bir temel sunan bu proje, güvenlik ve kullanıcı dostu arayüz özellikleri ile öne çıkar.</p>
+                            
+                            <h3>Özellikler:</h3>
+                            <ul>
+                                <li>Güvenli kullanıcı kimlik doğrulama</li>
+                                <li>Hesaplar arası para transferi</li>
+                                <li>İşlem geçmişi takibi</li>
+                                <li>Ödeme ve fatura yönetimi</li>
+                                <li>Yönetici ve kullanıcı panelleri</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/osmangurses/e-banking" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje 4 -->
+                <div class="project-item" data-category="web">
+                    <div class="project-details">
+                        <h2>AI Reklam Oluşturucu</h2>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-tag"></i> Web, AI, 3D</span>
+                            <span><i class="fas fa-code"></i> Three.js, JavaScript, ML/AI</span>
+                        </div>
+                        <div class="project-description">
+                            <p>Bu proje, verilen metin girdisine dayanarak 3D sahnelerde animasyonlu videolar oluşturan bir web uygulamasıdır. Three.js ve LLM sistemlerini temel alır.</p>
+                            <p>Sahne tamamen 3D modellerden ve animasyon sistemlerinden oluştuğu için kullanıcı tarafından indirilip herhangi bir oyun motorunda özelleştirilebilir. Mobil oyun pazarlamasında kullanılmak üzere geliştirilen bu çözüm, kreatif video üretimini hızlandırarak kullanıcı deneyimini optimize eder.</p>
+                            
+                            <h3>Özellikler:</h3>
+                            <ul>
+                                <li>Metin tabanlı 3D sahne oluşturma</li>
+                                <li>Otomatik animasyon sistemleri</li>
+                                <li>İndirilebilir ve düzenlenebilir 3D sahneler</li>
+                                <li>Yapay zeka destekli sahne analizi</li>
+                                <li>Modüler sahne bileşenleri</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small"><i class="fas fa-lock"></i> Proje henüz halka açık değildir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>HypeG Games</h3>
+                    <p>Yaratıcı oyun deneyimleri</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 HypeGG Games. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Filtreleme fonksiyonu
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectItems = document.querySelectorAll('.project-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Aktif butonu güncelle
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    projectItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
